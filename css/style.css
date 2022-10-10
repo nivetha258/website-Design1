@@ -1,0 +1,263 @@
+.container{
+	width:1170px;
+	padding:0 15px;
+	margin:0 auto;
+}
+.row{
+	display:flex;
+	flex-wrap:wrap;
+}
+.col-lg-1{
+	width:8.33%;
+	padding:0 15px;
+}
+.col-lg-2{
+	width:16.66%;
+	padding:0 15px;
+}
+.col-lg-3{
+	width:25%;
+	padding:0 15px;
+}
+.col-lg-4{
+	width:33.33%;
+	padding:0 15px;
+}
+.col-lg-5{
+	width:41.66%;
+	padding:0 15px;
+}
+.col-lg-6{
+	width:50%;
+	padding:0 15px;
+}
+.col-lg-7{
+	width:58.33%;
+	padding:0 15px;
+}
+.col-lg-8{
+	width:66.66%;
+	padding:0 15px;
+}
+.col-lg-9{
+	width:75%;
+	padding:0 15px;
+}
+.col-lg-10{
+	width:83.33%;
+	padding:0 15px;
+}
+.col-lg-11{
+	width:91.66%;
+	padding:0 15px;
+}
+.col-lg-12{
+	width:100%;
+	padding:0 15px;
+}
+/*---------header start-----------*/
+.header{background:gray;
+	padding:15px 0;
+}
+.logo, .logo-menu{
+	background:white;
+	height:50px;
+}
+/*---------header end-----------*/
+/*---------banner start-----------*/
+.banner{
+	background:#4087a5;
+	padding:50px 0;
+}
+.banner-content{
+	background:white;
+	width:600px;
+	height:300px;
+}
+/*---------banner end-----------*/
+/*---------client start-----------*/
+.client{background:#5bb0a1;
+		padding:30px 0;
+}
+.clientflex{
+	background:white;
+	height:75px;
+}
+/*---------client end-----------*/
+/*-----------------about start---------------*/
+.about{background:gray;
+		padding:15px 0;
+}
+.about-content{
+	background:white;
+	height:400px;
+}
+.abt-comment{
+	height:170px;
+	background:white;
+	margin:20px 0;
+}
+/*-----------------about end---------------*/
+/*---------count start-----------*/
+.count{background:#4087a5;
+		padding:15px 0;
+}
+.number{
+	height:150px;
+	background:white;
+}
+/*---------count end-----------*/
+/*---------support starts-----------*/
+.support{
+	background:#d45a97;
+	padding:15px 0;
+}
+.support-content{
+	background:white;
+	height:100px;
+	
+}
+.support-image{
+	background:white;
+	height:400px;
+	margin:20px 0;
+}
+
+/*---------support end-----------*/
+/*---------service starts-----------*/
+.services{background:gray;
+	padding:15px 0;
+}
+.service-heading{
+	background:white;
+	height:50px;
+}
+.service-points{
+	background:white;
+	height:100px;
+	margin:20px 0;
+}
+
+/*---------service end-----------*/
+/*---------portfolio starts-----------*/
+.portfolio{background:#4087a5;
+	padding:15px 0;
+}
+.portfolio-heading{
+	background:white;
+	height:75px;
+}
+.portfolio-images{
+	background:white;
+	height:200px;
+	margin:20px 0;
+}
+/*---------portfolio end-----------*/
+/*---------testimonial starts-----------*/
+.testimonial{background:#d45a97;
+	padding:15px 0;
+}
+.testimonial-heading{
+	background:white;
+	height:70px;
+}
+.testimonial-points{
+	background:white;
+	height:350px;
+	margin:20px 0;
+}
+
+/*---------testimonial end-----------*/
+/*---------pricing starts-----------*/
+.pricing{background:gray;
+	padding:15px 0;
+}
+.pricing-heading{
+	background:white;
+	height:70px;
+}
+.pricing-points{
+	background:white;
+	height:350px;
+	margin:20px 0;
+}
+
+/*---------pricing end-----------*/
+/*---------question starts-----------*/
+.question{background:#4087a5;
+	padding:15px 0;
+}
+.question-heading{
+	background:white;
+	height:75px;
+}
+.question-types{
+	background:white;
+	height:40px;
+	margin:10px 0;
+}
+
+/*---------question end-----------*/
+/*--------team starts-----------*/
+.team{background:#d45a97;
+	padding:15px 0;
+}
+.team-heading{
+	background:white;
+	height:70px;
+}
+.team-points{
+	background:white;
+	height:400px;
+	margin:20px 0;
+}
+
+/*---------team end-----------*/
+/*---------contact starts-----------*/
+.contact{background:gray;
+	padding:15px 0;
+}
+.contact-heading{
+	background:white;
+	height:70px;
+}
+.contact-ours{
+	background:white;
+	height:180px;
+	margin:20px 0;
+}
+.contact-yours{
+	background:white;
+	height:400px;
+	margin:20px 0;
+}
+
+/*---------contact end-----------*/
+/*---------address starts-----------*/
+.address{background:#4087a5;
+	padding:15px 0;
+}
+.address-logo{
+	background:white;
+	height:200px;
+}
+.address-links{
+	background:white;
+	height:200px;
+}
+.address-join{
+	background:white;
+	height:200px;
+}
+
+/*---------address end-----------*/
+/*---------header start-----------*/
+.footer{background:#d45a97;
+	padding:15px 0;
+}
+.footer .row{justify-content:space-between;}
+.footer-copyright,.footer-links{
+	background:white;
+	height:75px;
+}
+/*---------header end-----------*/
