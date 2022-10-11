@@ -55,14 +55,111 @@
 	width:100%;
 	padding:0 15px;
 }
+/*--------- common style----------*/
+
+.btns{background:#e03a3c;
+	border:none;
+	border-radius:5px;
+	color:white;
+}
+.align-items-center{align-items:center !important;}
+
+
+
+
+
+
+
+/*--------- common style ends----------*/
+
 /*---------header start-----------*/
-.header{background:gray;
-	padding:15px 0;
+.header{background:#fff;
+	padding:20px 0;
 }
-.logo, .logo-menu{
+.logo a{
+	display:inline-block;
+	text-decoration:none;
+	font-size:30px;
+	font-weight:600;
+	color:black;}
+.logo a span{color:red;}
+.logo-menu {text-align:right;}
+.nav-bar li{
+	display:inline-block;	
+}
+.nav-bar li a{
+	text-decoration:none;
+	display:block;
+	font-size:14px;
+	font-weight:400;
+	color:black;
+	padding:6px 15px;
+}
+.nav-bar li a.nav-list{padding:8px 14px;}
+.nav-bar li a i{
+	position:absolute;
+	top:12px;
+	font-size:15px;
+	font-weight:bold;
+	color:grey;
+	padding-left:5px;
+}
+.nav-bar li :hover{
+	color:red;
+}
+.nav-bar li a.nav-btn{
+	text-decoration:none;
+	padding-left:25px;
+	padding-right:25px;
+	margin-left:10px;
+	color:white;
+	font-size:15px;
+}
+.nav-btn:hover{background:black;}
+
+
+	/*---dropdown----*/
+.dropdown{
+	position:relative;
+}
+
+.dropdown-bar{
+	position:absolute;
+	top:100%;
+	left:0;
+	text-align:left;
+	visibility:hidden;
+	padding:12px 0;
+	min-width:170px;
 	background:white;
-	height:50px;
+	box-shadow:1px 1px 10px gray;
+	transform:translateY(20px);
+	transition:all 0.2s ease;
 }
+.dropdown:hover .dropdown-bar{
+	visibility:visible;
+	transform:translateY(0);
+}
+  	/*---dropdown----*/
+.deep-dropdown{position:relative;}
+.deep-dropdown-bar{
+	position:absolute;
+	top:20%;
+	left:100%;
+	text-align:left;
+	visibility:hidden;
+	padding:12px 0;
+	min-width:170px;
+	background:white;
+	box-shadow:1px 1px 10px gray;
+	transform:translateX(0px);
+	transition:all 0.2s ease;
+}
+.deep-dropdown:hover .deep-dropdown-bar{
+	visibility:visible;
+	transform:translateX(20px);
+	}
+
 /*---------header end-----------*/
 /*---------banner start-----------*/
 .banner{

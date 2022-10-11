@@ -4,6 +4,11 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width,inital-scale=1.0">
 	<title>layout</title>
+		<style>
+		@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik&display=swap');
+	</style>
+	<link rel="stylesheet" href="icon/icofont.min.css">
+
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/style.css">
 </head>
@@ -11,13 +16,42 @@
 		<!-----------------header start---------------------------------->
 	<header class="header">
 		<div class="container">
-			<div class="row">
-				<div class="col-lg-4">
+			<div class="row align-items-center">
+				<div class="col-lg-3">
 					<div class="logo">
+						<a href="">Presento<span>.</span></a>
 					</div>
 				</div>
-				<div class="col-lg-8">
-					<div class="logo-menu"></div>
+				<div class="col-lg-9">
+					<div class="logo-menu">
+						<ul class="nav-bar">
+							<li><a class="nav-list" href="index.html">Home</a></li>
+							<li><a class="nav-list" href="#">About</a></li>
+							<li><a class="nav-list" href="#">Services</a></li>
+							<li><a class="nav-list" href="#">Portfolio</a></li>
+							<li><a class="nav-list" href="#">Team</a></li>
+							<li><a class="nav-list" href="#">Blog</a></li>
+							<li class="dropdown"><a class="nav-list" href="#">Drop Down<i class="icofont-thin-down"></i></a>
+								<ul class="dropdown-bar">
+									<li><a href="#">Dropdown 1</a></li>
+									<li class="deep-dropdown"><a href="#">Deep Drop Down<i class="icofont-thin-right"></i></a>
+										<ul class="deep-dropdown-bar">
+											<li><a href="#">Deep Drop Down 1</a></li>
+											<li><a href="#">Deep Drop Down 2</a></li>
+											<li><a href="#">Deep Drop Down 3</a></li>
+											<li><a href="#">Deep Drop Down 4</a></li>
+											<li><a href="#">Deep Drop Down 5</a></li>
+								        </ul>
+									</li>
+									<li><a href="#">Dropdown 2</a></li>
+									<li><a href="#">Dropdown 3</a></li>
+									<li><a href="#">Dropdown 4</a></li>
+								</ul>
+							</li>
+							<li><a class="nav-list" href="#">Contact</a></li>
+							<li><a class="btns nav-btn" href="#">Get Started</a></li>
+						</ul>
+					</div>
 				</div>
 			</div>
 		</div>
