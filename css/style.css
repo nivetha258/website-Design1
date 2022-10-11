@@ -5,6 +5,7 @@
 }
 .row{
 	display:flex;
+	margin: 0 -15px;
 	flex-wrap:wrap;
 }
 .col-lg-1{
@@ -101,8 +102,7 @@
 	top:12px;
 	font-size:15px;
 	font-weight:bold;
-	color:grey;
-	padding-left:5px;
+	padding-left:10px;
 }
 .nav-bar li :hover{
 	color:red;
@@ -163,21 +163,35 @@
 /*---------header end-----------*/
 /*---------banner start-----------*/
 .banner{
-	background:#4087a5;
-	padding:50px 0;
+	background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../image/banner-img.jpg);
+	background-size:cover;
+	background-position:center;
+	background-repeat:no-repeat;
 }
 .banner-content{
-	background:white;
-	width:600px;
-	height:300px;
+	padding:100px 300px 250px 0;
+	font-family:Raleway, san-serif;
 }
+.banner-content h1{
+	color:white;
+	font-size:45px;
+}
+.banner-content p{
+	color:white;
+	font-size:25px;
+	padding:15px 0 40px 0;
+}
+.banner-content a{
+	display:inline-block;
+	padding:10px 25px;
+}
+
 /*---------banner end-----------*/
 /*---------client start-----------*/
-.client{background:#5bb0a1;
+.client{background:white;
 		padding:30px 0;
 }
 .clientflex{
-	background:white;
 	height:75px;
 }
 /*---------client end-----------*/
