@@ -84,19 +84,22 @@
 	font-weight:600;
 	color:black;}
 .logo a span{color:red;}
-.logo-menu {text-align:right;}
-.nav-bar li{
-	display:inline-block;	
+.logo-menu {}
+ul.nav-bar >li{
+	display:inline-block;
+	text-align:right;
 }
 .nav-bar li a{
 	text-decoration:none;
 	display:block;
-	font-size:14px;
-	font-weight:400;
+	font-size:15px;
+	font-weight:600;
 	color:black;
-	padding:6px 15px;
+	padding:8px 14px;	
 }
-.nav-bar li a.nav-list{padding:8px 14px;}
+.nav-bar li{
+	display:block;
+}
 .nav-bar li a i{
 	position:absolute;
 	top:12px;
@@ -104,7 +107,7 @@
 	font-weight:bold;
 	padding-left:10px;
 }
-.nav-bar li :hover{
+.nav-bar li a:hover{
 	color:red;
 }
 .nav-bar li a.nav-btn{
@@ -115,7 +118,9 @@
 	color:white;
 	font-size:15px;
 }
-.nav-btn:hover{background:black;}
+.nav-btn:hover{
+	background:black;
+}
 
 
 	/*---dropdown----*/
@@ -130,15 +135,15 @@
 	text-align:left;
 	visibility:hidden;
 	padding:12px 0;
-	min-width:170px;
+	min-width:180px;
 	background:white;
 	box-shadow:1px 1px 10px gray;
 	transform:translateY(20px);
-	transition:all 0.2s ease;
+	transition:all 0.3s ease;
 }
 .dropdown:hover .dropdown-bar{
 	visibility:visible;
-	transform:translateY(0);
+	transform:translateY(0);	
 }
   	/*---dropdown----*/
 .deep-dropdown{position:relative;}
@@ -149,19 +154,19 @@
 	text-align:left;
 	visibility:hidden;
 	padding:12px 0;
-	min-width:170px;
+	min-width:180px;
 	background:white;
 	box-shadow:1px 1px 10px gray;
-	transform:translateX(0px);
-	transition:all 0.2s ease;
+	transform:translateX(-20px);
+	transition:all 0.3s ease;
 }
 .deep-dropdown:hover .deep-dropdown-bar{
 	visibility:visible;
-	transform:translateX(20px);
+	transform:translateX(0px);
 	}
 
 /*---------header end-----------*/
-/*---------banner start-----------*/
+/*---------banner start----------------------------*/
 .banner{
 	background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../image/banner-img.jpg);
 	background-size:cover;
@@ -186,36 +191,113 @@
 	padding:10px 25px;
 }
 
-/*---------banner end-----------*/
+/*---------banner end--------------------------------------*/
 /*---------client start-----------*/
 .client{background:white;
-		padding:30px 0;
+		padding:80px 0;
 }
-.clientflex{
-	height:75px;
+.clientflex{padding:5px 30px;}
+.clientflex img{
+	width:100%;
+	filter:grayscale(100%);
+	opacity:0.5;
+	transition:all 0.3s ease;
+}
+.clientflex img:hover{
+	filter:grayscale(0);
+	opacity:1;
 }
 /*---------client end-----------*/
 /*-----------------about start---------------*/
-.about{background:gray;
-		padding:15px 0;
-}
-.about-content{
+.about{
+	padding:120px 0;
+	position:relative;
+	z-index:1;
+	color:white;
 	background:white;
-	height:400px;
 }
-.abt-comment{
-	height:170px;
-	background:white;
-	margin:20px 0;
+.about:before{
+	content:"";
+	position:absolute;
+	background:#1b1b1b;
+	top:50px;
+	bottom:50px;
+	left:0;
+	right:0;
+	z-index:-1; 
+	transform:skewY(-3deg);
+}
+.about-content h1{
+	font-size:35px;
+	font-weight:800;
+}
+.about-content p{
+	font-size:16px;
+	padding:35px 0;
+	line-height:23px;
+}
+
+.about-content a.abt-btn{
+	display:inline-block;
+	text-decoration:none;
+	font-size:13px;
+	font-weight:bold;
+	padding:9px 27px;
+	border:solid 2px #e03a3c;
+	border-radius:20px;
+	background:#1b1b1b;
+}
+.about-content .abt-btn:hover{
+	background:#e03a3c;
+}
+.abt-comment{padding:18px 0}
+.abt-comment h2{
+	font-size:20px;
+	font-weight:900;
+	padding:13px 0;
+}
+.abt-comment p{
+	color:#848484;
+	font-size:15px;
+	line-height:23px;
+}
+.abt-comment i{
+	color:#e03a3c;
+	font-weight:bold;
+	font-size:30px;
 }
 /*-----------------about end---------------*/
 /*---------count start-----------*/
-.count{background:#4087a5;
-		padding:15px 0;
+.count{background:white;
+		padding:80px 0 60px;
 }
+.number h1{
+	font-size:35px;
+	font-family:open sans, san-serif;
+}
+.number p{font-size:15px;}
 .number{
-	height:150px;
+	position:relative;
+	padding:40px 40px 30px 40px;
 	background:white;
+	text-align:center;
+	box-shadow:27px 3px 80px #d3d3d378;
+}
+.number i{
+	position:absolute;
+	bottom:86%;
+	left:41%;
+	font-size:25px;
+	text-align:center;
+	line-height:50px;
+	width:50px;
+	height:50px;
+	border:none;
+	color:red;
+	background:white;
+	border-radius:50%;
+	box-shadow:0 0 10px #d3d3d378;
+	
 }
 /*---------count end-----------*/
 /*---------support starts-----------*/
