@@ -64,13 +64,43 @@
 	color:white;
 }
 .align-items-center{align-items:center !important;}
+.head-content{
+	padding:20px 0;
+	text-align:center;
+	color:#444444;
+}
+.heading{
+	font-size:30px;
+	font-weight:600;
+	padding-bottom:20px;
+}
+.underline{
+	width:50px;
+	height:3px;
+	background:#e03a3c;
+	margin:0 auto;
+}
+.para{padding-top:20px;}
 
+.skew-background{
+	padding:120px 0;
+	position:relative;
+	z-index:1;
+	color:white;
+}
+.skew-background:before{
+	content:"";
+	position:absolute;
+	background:#1b1b1b;
+	top:50px;
+	bottom:50px;
+	left:0;
+	right:0;
+	z-index:-1; 
+	transform:skewY(-3deg);
+}
+.skew-background .head-content{color:white;}
 /*--------- common style ends----------*/
-
-
-
-
-
 
 /*---------header start-----------*/
 .header{background:#fff;
@@ -181,15 +211,14 @@ ul.nav-bar >li{
 	margin-top:75px;
 }
 .banner-content{
-	padding:120px 0 250px 0;
+	padding:130px 0 250px 0;
 	font-family:Raleway, san-serif;
+	color:white;
 }
 .banner-content h1{
-	color:white;
 	font-size:45px;
 }
 .banner-content p{
-	color:white;
 	font-size:25px;
 	padding:15px 0 40px 0;
 }
@@ -197,7 +226,6 @@ ul.nav-bar >li{
 	display:inline-block;
 	text-decoration:none;
 	padding:10px 25px;
-	transition:all 0.5s ease;
 	font-weight:500;
 }
 .banner-content a:hover{
@@ -223,24 +251,6 @@ ul.nav-bar >li{
 }
 /*---------client end-----------*/
 /*-----------------about start---------------*/
-.about{
-	padding:120px 0;
-	position:relative;
-	z-index:1;
-	color:white;
-	background:white;
-}
-.about:before{
-	content:"";
-	position:absolute;
-	background:#1b1b1b;
-	top:50px;
-	bottom:50px;
-	left:0;
-	right:0;
-	z-index:-1; 
-	transform:skewY(-3deg);
-}
 .about-content h1{
 	font-size:35px;
 	font-weight:800;
@@ -283,7 +293,7 @@ ul.nav-bar >li{
 /*-----------------about end---------------*/
 /*---------count start-----------*/
 .count{background:white;
-		padding:80px 0 60px;
+		padding:80px 0 60px 0;
 }
 .number h1{
 	font-size:35px;
@@ -361,43 +371,8 @@ ul.nav-bar >li{
 	height:auto;
 }
 .support-image{padding:70px 0}
-
-
 /*---------support end-----------*/
 /*---------service starts-----------*/
-.service{
-	padding:120px 0;
-	position:relative;
-	z-index:1;
-	color:white;
-	background:white;
-}
-.service:before{
-	content:"";
-	position:absolute;
-	background:#1b1b1b;
-	top:60px;
-	bottom:48px;
-	left:0;
-	right:0;
-	z-index:-1; 
-	transform:skewY(-3deg);
-}
-.service-heading{
-	color:white;
-	padding:10px 0;
-	text-align:center;
-}
-.service-heading h1{
-	font-size:30px;
-	font-weight:600;
-}
-.service-heading div{
-	width:50px;
-	height:3px;
-	background:#e03a3c;
-	margin:20px auto;
-}
 .service-points{
 	position:relative;
 	padding:34px 28px 46px 100px;
@@ -432,20 +407,9 @@ ul.nav-bar >li{
 .portfolio{
 	padding:30px 0;
 }
-.portfolio-heading{
-	padding:10px 0;
-	font-weight:400;
-	text-align:center;
-}
 .portfolio-heading h1{
 	position:relative;
-	font-size:30px;
-	font-weight:600;
-	color:#444444;
-	padding:20px 0;
-	
 }
-.portfolio-heading p{padding-top:20px;}
 .portfolio-heading h1:after{
 	content:"";
 	position:absolute;
@@ -454,10 +418,7 @@ ul.nav-bar >li{
 	height:4px;
 	bottom:0;
 	left:0;
-	transform: translateX(541px);
-
-	
-	
+	transform:translateX(541px);
 }
 .portfolio-nav {
 	text-align:center;
@@ -536,23 +497,6 @@ ul.nav-bar >li{
 .testimonial{
 	padding:15px 0;
 }
-.testimonial-heading{
-	padding:10px 0;
-	text-align:center;
-	color:#444444;
-}
-.testimonial-heading h1{
-	font-size:30px;
-	font-weight:600;
-	color:black;
-}
-.testimonial-heading div{
-	width:50px;
-	height:3px;
-	background:#e03a3c;
-	margin:20px auto;
-}
-
 .testimonial-points{
 	margin:20px 0;
 	padding: 30px 30px;
@@ -571,11 +515,9 @@ ul.nav-bar >li{
 	height:auto;
 	display:block;
 	border-radius:3px;
-	
 }
 .testimonial-points h3{
 	font-weight:bold;
-	
 }
 .testimonial-points h4{
 	color:#999;
@@ -594,46 +536,12 @@ ul.nav-bar >li{
 }
 .testimonial-points i:first-child{
 	transform:translate(-6px, -6px);
-	
 }
 .testimonial-points i:last-child{
 	transform:translate(6px, 6px);
 }
 /*---------testimonial end-----------*/
 /*---------pricing starts-----------*/
-.pricing{
-	padding:140px 0;
-	position:relative;
-	z-index:1;
-	color:white;
-	background:white;
-}
-.pricing:before{
-	content:"";
-	position:absolute;
-	background:#1b1b1b;
-	top:70px;
-	bottom:68px;
-	left:0;
-	right:0;
-	z-index:-1; 
-	transform:skewY(-3deg);
-}
-.pricing-heading{
-	color:white;
-	padding:10px 0;
-	text-align:center;
-}
-.pricing-heading h1{
-	font-size:30px;
-	font-weight:600;
-}
-.pricing-heading div{
-	width:50px;
-	height:3px;
-	background:#e03a3c;
-	margin:20px auto;
-}
 .pricing-points{
 	text-align:center;
 	font-size:14px;
@@ -667,22 +575,7 @@ ul.nav-bar >li{
 
 /*---------question starts-----------*/
 .question{padding:15px 0}
-.question-heading{
-	padding:10px 0;
-	text-align:center;
-}
-.question-heading h1{
-	font-size:30px;
-	font-weight:600;
-}
-.question-heading div{
-	width:50px;
-	height:3px;
-	background:#e03a3c;
-	margin:20px auto;
-}
 .question-types{
-	background:white;
 	border-bottom:solid 1px lightgray;
 	font-size:18px;
 	color:#343a40;
@@ -700,44 +593,10 @@ ul.nav-bar >li{
 	top:50%;
 	right:0;
 }
-.question-types summary:hover{color:red;}
+.question-types summary:hover{color:#e03a3c;}
 /*---------question end-----------*/
 
-
 /*--------team starts-----------*/
-.team{
-	padding:140px 0;
-	position:relative;
-	z-index:1;
-	color:white;
-	background:white;
-}
-.team:before{
-	content:"";
-	position:absolute;
-	background:#1b1b1b;
-	top:70px;
-	bottom:68px;
-	left:0;
-	right:0;
-	z-index:-1; 
-	transform:skewY(-3deg);
-}
-.team-heading{
-	color:white;
-	padding:10px 0;
-	text-align:center;
-}
-.team-heading h1{
-	font-size:30px;
-	font-weight:800;
-}
-.team-heading div{
-	width:50px;
-	height:3px;
-	background:#e03a3c;
-	margin:20px auto;
-}
 .team-points{
 	position:relative;
 	background:white;
@@ -786,32 +645,16 @@ ul.nav-bar >li{
 	font-size:16px;
 	color:white;
 }
-
 .team-points:hover .socialmedia{
 	opacity:1;
 	transform:translatey(0px);
 }
-
 /*---------team end-----------*/
 
 
 /*---------contact starts-----------*/
 .contact{
 	padding:40px 0;
-}
-.contact-heading{
-	padding:10px 0;
-	text-align:center;
-}
-.contact-heading h1{
-	font-size:30px;
-	font-weight:600;
-}
-.contact-heading div{
-	width:50px;
-	height:3px;
-	background:#e03a3c;
-	margin:20px auto;
 }
 .contact-ours,.contact-yours{
 	margin:20px 0;
@@ -820,9 +663,7 @@ ul.nav-bar >li{
 	color:#777777;
 	font-size:14px;
 	padding:25px 0;
-	
 }
-
 .contact-ours i{
 	display:inline-block;
 	width:44px;
@@ -844,7 +685,6 @@ ul.nav-bar >li{
 }
 .contact-yours{
 	padding:30px;
-
 }
 .contact-yours #contact{
 	padding:12px 0 12px 10px;
@@ -863,10 +703,7 @@ ul.nav-bar >li{
 	font-size:16px;
 	margin:10px 0;
 }
-
 /*---------contact end-----------*/
-
-
 /*---------address starts-----------*/
 .address{background:#1b1b1b;
 	padding:70px 0;
@@ -913,34 +750,32 @@ ul.nav-bar >li{
 .address-links li a:hover{
 	color:white;
 }
-.newsletter{
-	padding:0 0px;
-}
-.subscribe{
+.newsletter form{
 	position:relative;
 	margin:30px 0;
 	border-radius:3px;
 	overflow:hidden;
 }
-.subscribe input{
+.newsletter input{
 	padding:10px 105px 10px 5px;
 	width:100%;
 	border-radius:5px;
 	border:none;
 }
-.subscribe a{
+
+.newsletter input[type=submit]{
 	position:absolute;
 	right:0;
-	top:0;
-	display:inline-block;
-	text-decoration:none;
+	top:-1px;
+	width:100px;
 	background:#e03a3c;
-	padding:9px 15px;
+	text-align:center;
+	padding:10px 5px;
 	border:none;
 	color:white;
-	border-radius:px;
 	font-size:16px;
 }
+.newsletter input[type=submit]:hover{background:#e35052;}
 /*---------address end-----------*/
 /*---------footer start-----------*/
 .footer{background:black;
@@ -974,18 +809,20 @@ ul.nav-bar >li{
 .scrollup a{
 	position:fixed;
 	z-index:2;
-	bottom:0;
-	right:0;
+	bottom:20px;
+	right:20px;
 	text-decoration:none;
 	color:white;
 	display:inline-block;
-	font-size:20px;
-	width:34px;
-	height:34px;
-	line-height:34px;
+	font-size:24px;
+	width:40px;
+	height:40px;
+	line-height:40px;
 	border-radius:3px;
 	background:#e03a3c;
 	text-align:center;
-	margin:25px 37px;
+}
+.scrollup a:hover{
+	background:#e35052;
 }
 /*---------footer end-----------*/
