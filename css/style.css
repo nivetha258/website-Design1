@@ -76,6 +76,7 @@
 .header{background:#fff;
 	padding:20px 0;
 	position:fixed;
+	top:0;
 	z-index:3;
 	width:100%;
 }
@@ -177,9 +178,10 @@ ul.nav-bar >li{
 	background-size:cover;
 	background-position:center;
 	background-repeat:no-repeat;
+	margin-top:75px;
 }
 .banner-content{
-	padding:100px 0 250px 0;
+	padding:120px 0 250px 0;
 	font-family:Raleway, san-serif;
 }
 .banner-content h1{
@@ -195,8 +197,8 @@ ul.nav-bar >li{
 	display:inline-block;
 	text-decoration:none;
 	padding:10px 25px;
-	border:solid 2px #e03a3c;
 	transition:all 0.5s ease;
+	font-weight:500;
 }
 .banner-content a:hover{
 	border:solid 2px white;
@@ -432,9 +434,8 @@ ul.nav-bar >li{
 }
 .portfolio-heading{
 	padding:10px 0;
-	font-weight:400px;
+	font-weight:400;
 	text-align:center;
-	padding:10px 0;
 }
 .portfolio-heading h1{
 	position:relative;
@@ -442,9 +443,9 @@ ul.nav-bar >li{
 	font-weight:600;
 	color:#444444;
 	padding:20px 0;
-	margin-bottom:20px;
+	
 }
-
+.portfolio-heading p{padding-top:20px;}
 .portfolio-heading h1:after{
 	content:"";
 	position:absolute;
@@ -560,13 +561,13 @@ ul.nav-bar >li{
 }
 .testimonial-points .position{
 	position:relative;
-	padding:22px 0 18px 115px;
+	padding:22px 0 8px 96px;
 }
 .position img{
 	position:absolute;
 	top:0;
-	left:12px;
-	width:90px;
+	left:6px;
+	width:76px;
 	height:auto;
 	display:block;
 	border-radius:3px;
@@ -583,7 +584,7 @@ ul.nav-bar >li{
 }
 .testimonial-points p{
 	font-style:italic;
-	padding:20px 0;
+	padding:12px 0;
 	color:#444444;
 }
 .testimonial-points i{
@@ -592,13 +593,11 @@ ul.nav-bar >li{
 	display:inline-block;
 }
 .testimonial-points i:first-child{
-	transform:translateY(-6px);
-	padding-right:6px;
+	transform:translate(-6px, -6px);
 	
 }
 .testimonial-points i:last-child{
-	transform:translateY(6px);
-	padding-left:6px;
+	transform:translate(6px, 6px);
 }
 /*---------testimonial end-----------*/
 /*---------pricing starts-----------*/
@@ -855,9 +854,7 @@ ul.nav-bar >li{
 	border:solid 0.5px lightgray;
 	border-radius:2px;
 }
-.contact-yours a{
-	display:inline-block;
-	text-decoration:none;
+.contact-yours button{
 	background:#e03a3c;
 	padding:12px 30px;
 	border:none;
@@ -917,7 +914,7 @@ ul.nav-bar >li{
 	color:white;
 }
 .newsletter{
-	padding:0 60px;
+	padding:0 0px;
 }
 .subscribe{
 	position:relative;
@@ -989,6 +986,6 @@ ul.nav-bar >li{
 	border-radius:3px;
 	background:#e03a3c;
 	text-align:center;
-	margin:0 3px;
+	margin:25px 37px;
 }
 /*---------footer end-----------*/
