@@ -169,7 +169,6 @@ ul.nav-bar >li{
 	left:0;
 	text-align:left;
 	visibility:hidden;
-	
 	padding:12px 0;
 	min-width:180px;
 	background:white;
@@ -227,6 +226,7 @@ ul.nav-bar >li{
 	text-decoration:none;
 	padding:10px 25px;
 	font-weight:500;
+	border:solid 2px #e03a3c;
 }
 .banner-content a:hover{
 	border:solid 2px white;
@@ -505,13 +505,13 @@ ul.nav-bar >li{
 }
 .testimonial-points .position{
 	position:relative;
-	padding:22px 0 8px 96px;
+	padding:22px 0 8px 86px;
 }
 .position img{
 	position:absolute;
 	top:0;
 	left:6px;
-	width:76px;
+	width:68px;
 	height:auto;
 	display:block;
 	border-radius:3px;
@@ -526,7 +526,7 @@ ul.nav-bar >li{
 }
 .testimonial-points p{
 	font-style:italic;
-	padding:12px 0;
+	padding:10px 0;
 	color:#444444;
 }
 .testimonial-points i{
@@ -686,7 +686,7 @@ ul.nav-bar >li{
 .contact-yours{
 	padding:30px;
 }
-.contact-yours #contact{
+.contact-yours .contact{
 	padding:12px 0 12px 10px;
 	margin:14px 0;
 	width:100%;
@@ -751,29 +751,28 @@ ul.nav-bar >li{
 	color:white;
 }
 .newsletter form{
-	position:relative;
 	margin:30px 0;
-	border-radius:3px;
-	overflow:hidden;
+	position:relative;
 }
-.newsletter input{
+.newsletter input[type=email]{
 	padding:10px 105px 10px 5px;
 	width:100%;
 	border-radius:5px;
+	outline:none;
 	border:none;
 }
 
 .newsletter input[type=submit]{
 	position:absolute;
 	right:0;
-	top:-1px;
+	top:0;
 	width:100px;
+	height:100%;
 	background:#e03a3c;
-	text-align:center;
-	padding:10px 5px;
-	border:none;
 	color:white;
 	font-size:16px;
+	border-radius:0 5px 5px 0;
+	border:none;
 }
 .newsletter input[type=submit]:hover{background:#e35052;}
 /*---------address end-----------*/
