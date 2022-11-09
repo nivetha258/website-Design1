@@ -87,7 +87,7 @@
 	}
 }
 /*---------- medium device(TAB md)-----------*/
-@media(min-width:768px) and (max-width:992px){
+@media(min-width:768px){
 	.container{
 		width:765px;
 	}
@@ -139,30 +139,8 @@
 		width:100%;
 		padding:0 15px;
 	}
-
-	/*-- header begins---*/
-	.d-md-none{
-		display:none;
-	}
-	.mb-btn{
-		display:block;
-	}
-	a.nav-btn{
-		padding:6px 20px;
-		margin-left:10px;
-		color:white;
-		font-size:15px;
-	}
-			/*-- header ends---*/
-	.banner{text-align:center}
-	.abt-center{text-align:center;}
-	.support-content{padding:0;}
-	.support-content p{display:none;}
-	.support-content i{
-		left:60px;
-		font-size:50px;
-	}
 }
+
 	/*----------from larger device(laptop lg,desktop xl,..)-----------*/
 @media(min-width:992px){
 	.container{
@@ -219,6 +197,30 @@
 	
 }
 /*----------only for larger(laptop) -----------*/
+@media(min-width:768px) and (max-width:992px){
+	/*-- header begins---*/
+	.d-md-none{
+		display:none;
+	}
+	.mb-btn{
+		display:block;
+	}
+	a.nav-btn{
+		padding:6px 20px;
+		margin-left:10px;
+		color:white;
+		font-size:15px;
+	}
+			/*-- header ends---*/
+	.banner{text-align:center}
+	.abt-center{text-align:center;}
+	.support-content{padding:0;}
+	.support-content p{display:none;}
+	.support-content i{
+		left:60px;
+		font-size:50px;
+	}
+}
 @media(min-width:992px) and (max-width:1200px){
 	.nav-bar li a{
 		padding:8px 10px;	
