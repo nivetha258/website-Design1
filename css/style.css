@@ -208,11 +208,16 @@ ul.nav-bar >li{
 /*---------banner end--------------------------------------*/
 /*---------client start-----------*/
 .client{background:white;
-		padding:80px 0;
+		padding:60px 0;
 }
-.clientflex{padding:5px 30px;}
+.clientflex{
+	padding:5px 20px;
+	max-width: 156px;
+    margin: 0 auto;
+}
 .clientflex img{
 	width:100%;
+	padding: 10px 0;
 	filter:grayscale(100%);
 	opacity:0.5;
 	transition:all 0.3s ease;
@@ -306,7 +311,7 @@ ul.nav-bar >li{
 }
 .support-content{
 	position:relative;
-	padding:30px 28px 30px 80px;
+	padding:30px 10px 30px 70px;
 	border:solid 1px lightgray;
 	transition:all 0.5s ease;
 	min-height:112px;
@@ -314,7 +319,7 @@ ul.nav-bar >li{
 .support-content i{
 	font-size:44px;
 	position:absolute;
-	left:22px;
+	left:14px;
 	top:50%;
 	transform:translateY(-50%);
 }
@@ -605,6 +610,7 @@ ul.nav-bar >li{
 	color:red;
 	width:100%;
 	opacity:0;
+	visibility:hidden;
 	text-align:center;
 	transform:translatey(-20px);
 	transition:all 0.5s ease;
@@ -628,6 +634,7 @@ ul.nav-bar >li{
 .team-points:hover .socialmedia{
 	opacity:1;
 	transform:translatey(0px);
+	visibility:visible;
 }
 /*---------team end-----------*/
 
@@ -705,6 +712,7 @@ ul.nav-bar >li{
 	font-size:14px;
 }
 .address-links h2{
+	padding-top:10px;
 	font-size:18px;
 	font-weight:bold;
 }
