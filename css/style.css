@@ -309,6 +309,9 @@ ul.nav-bar >li{
 .support{
 	padding:15px 0;
 }
+.support .support-image-reverse{
+	flex-direction:column-reverse;
+}
 .support-content{
 	position:relative;
 	padding:30px 10px 30px 70px;

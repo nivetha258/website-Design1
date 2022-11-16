@@ -71,6 +71,13 @@
 	.skew-background {padding: 100px 0;}
 	.heading {font-size:28px;}
 	.banner{text-align:center}
+	.support-content {min-height:58px;}
+	.support-content p{display:none;}
+	.support-content i {
+		font-size:32px;
+		left:50%;
+		transform:translate(-50%,-50%);
+	}
 	.support-image{padding:16px 0;}
 	.abt-center{text-align:center;}
 	.about-content h1 {font-size:32px;}
@@ -194,6 +201,9 @@
 		padding:0 15px;
 	}
 	.client{padding:60px 0;}
+	.support .support-image-reverse{
+		flex-direction:row;
+	}
 }
 /*----------column size ends-----------*/
 
