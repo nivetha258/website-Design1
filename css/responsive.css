@@ -239,6 +239,8 @@
 	}
 	.support-image{padding:16px 0;}
 }
+
+
 @media(min-width:992px) and (max-width:1200px){
 	.nav-bar li a{
 		padding:8px 10px;	
