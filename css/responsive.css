@@ -71,7 +71,10 @@
 	.skew-background {padding: 100px 0;}
 	.heading {font-size:28px;}
 	.banner{text-align:center}
-	.support-content {min-height:58px;}
+	.support-content {
+		min-height:58px;
+		padding:0;
+	}
 	.support-content p{display:none;}
 	.support-content i {
 		font-size:32px;
