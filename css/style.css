@@ -64,8 +64,8 @@
 	content:"";
 	position:absolute;
 	background:#1b1b1b;
-	top:50px;
-	bottom:50px;
+	top:40px;
+	bottom:40px;
 	left:0;
 	right:0;
 	z-index:-1; 
@@ -86,8 +86,11 @@
 	display:inline-block;
 	text-decoration:none;
 	font-size:30px;
+	font-family:poppins,san-serif;
 	font-weight:600;
-	color:black;}
+	color:black;
+	
+}
 .logo a span{color:#e03a3c;}
 .logo-menu {}
 ul.nav-bar >li{
@@ -100,7 +103,7 @@ ul.nav-bar >li{
 	font-size:15px;
 	font-weight:600;
 	color:black;
-	padding:8px 14px;	
+	padding:8px 10px;	
 }
 .nav-bar li{
 	display:block;
@@ -179,25 +182,27 @@ ul.nav-bar >li{
 	background-size:cover;
 	background-position:center;
 	background-repeat:no-repeat;
-	margin-top:75px;
+	margin-top:90px;
 }
 .banner-content{
-	padding:130px 0 250px 0;
+	padding:150px 0 280px 0;
 	font-family:Raleway, san-serif;
 	color:white;
+	text-align:center;
 }
 .banner-content h1{
-	font-size:45px;
+	font-size:28px;
 }
 .banner-content p{
-	font-size:25px;
-	padding:15px 0 40px 0;
+	font-size:18px;
+	padding:10px;
 }
 .banner-content a{
 	display:inline-block;
 	text-decoration:none;
 	padding:10px 25px;
 	font-weight:500;
+	font-size:16px;
 	border:solid 2px #e03a3c;
 }
 .banner-content a:hover{
@@ -229,6 +234,9 @@ ul.nav-bar >li{
 }
 /*---------client end-----------*/
 /*-----------------about start---------------*/
+.about{
+	text-align:center;
+}
 .about-content h1{
 	font-size:35px;
 	font-weight:800;
@@ -360,7 +368,7 @@ ul.nav-bar >li{
 /*---------service starts-----------*/
 .service-points{
 	position:relative;
-	padding:34px 28px 46px 100px;
+	padding:30px 30px 30px 90px;
 	border-radius:3px;
 	transition:all 0.5s ease;
 	font-weight:400;
@@ -741,7 +749,7 @@ ul.nav-bar >li{
 .newsletter form{
 	margin:30px 0;
 	position:relative;
-	max-width:400px;
+	max-width:330px;
 }
 .newsletter input[type=email]{
 	padding:10px 105px 10px 5px;
